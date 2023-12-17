@@ -6,8 +6,18 @@
     margin: 0;
 }
 
+[class$="container"] {
+    padding: 0px 10%;
+}
+
 .header-container,
 .hero-container,
 .footer-container {
     background-color: #1F2937;
 }
+
+/* .header {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+} */
