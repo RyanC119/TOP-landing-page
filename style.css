@@ -16,6 +16,11 @@
     background-color: #1F2937;
 }
 
+.body-text.white {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
 /* HEADER */
 .header {
     display: flex;
@@ -40,4 +45,15 @@
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+/* HERO */
+.hero {
+    padding: 50px 16px;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
 }
