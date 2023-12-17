@@ -107,6 +107,7 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 /* CARDS */
@@ -121,8 +122,28 @@
     height: 150px;
     width: 150px;
     margin-bottom: 16px;
+    border-radius: 5%;
 }
 
 .card p {
     text-align: center;
+    max-width: 175px;
+}
+
+/* QUOTE */
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 150px;
+}
+
+.block-quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
 }
