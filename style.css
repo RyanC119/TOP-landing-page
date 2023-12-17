@@ -181,3 +181,15 @@
     font-weight: bold;
     font-size: 14px;
 }
+
+/* FOOTER */
+.footer-container {
+    height: 75px;
+}
+
+.footer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
