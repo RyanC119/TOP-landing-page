@@ -2,6 +2,12 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-/* HEADER STYLES */
+.header-container,
+.hero-container,
+.footer-container {
+    background-color: #1F2937;
+}
